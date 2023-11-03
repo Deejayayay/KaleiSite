@@ -1,0 +1,29 @@
+.home {
+    background-color: #d8ddd9;
+    
+}
+
+.nav-bar {
+    background-color: #3e634b;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+.nav-bar a { 
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    outline: none;
+}
+
+.nav-bar a:hover{
+    background-color: #89a694;
+}
+
+.nav-bar a.active {
+    background-color: #89a694;
+    color: #e0ddd9;
+}
