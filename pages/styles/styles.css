@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
+    outline: none;
     font-family: oleo script;
 }
 
 body {
     min-height: 100vh;
-    background-image: url("/pages/img/bgimg//flat-lay-colored-autumn-leaves.jpg");
     background-size: cover;
     background-position: center;
 }

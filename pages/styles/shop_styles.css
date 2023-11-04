@@ -1,4 +1,7 @@
+
+
 /*--- items being sold ---*/
+
 .products {
     margin-left: 100px;
 }
@@ -8,6 +11,57 @@
     width: 200px;
 }
 
-.prod-header {
-    align-self: center;
+/*shop header listing products and filter menu*/
+
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#search-container {
+    margin: 1em 0;
+}
+
+#search-container input {
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+}
+#search-container input:focus {
+    border-bottom-color: #6759ff;
+}
+
+#search-container button {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: #6759ff;
+    color: #ffff;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+/*-----------------------------------------------*/
+
+/*Buttons for the filter menu*/
+#buttons button {
+    border: 2px solid #6759ff;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #6759ff;
+    cursor: pointer;
+}
+
+.button-value{
+    border: 2px solid #6759ff;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #6759ff;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #6759ff;
+    color: white;
 }

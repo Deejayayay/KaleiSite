@@ -17,31 +17,29 @@
 
         <nav class="nav-bar">
             <a href="/index.html">About</a>
-            <a class="active" href="/pages/shop.html">Shop</a>
+            <a href="/pages/shop.html">Shop</a>
             <a href="/pages/contact.html">Contact</a>
         </nav>
     </header>
 
-    <h2 class="prod-header"> All Products </h2> 
+    <div class="wrapper">
+        <div id="search-container">
+            <input type="search" id="search-input" placeholder="Search product name here..."/>
 
-    <!-- All Products -->
-    <!-- To Do Make it Dynamic-->
-    <section id="products" class="products">
-        <div class="container">
-            <div class="pro"> 
-                <img src="img/B23635F0-411C-4E8D-9C6B-C34B5A3940E0.jpeg" alt="">
-                <div class="des"> 
-                    <span>Earings</span>
-                    <h5>Pearl Earings</h5>
-                </div>
-            </div>
+            <button id="search">Search</button>
         </div>
 
-    </section>
+        <div id="buttons">
+            <button class="button-value">All</button>
+            <button class="button-value">Bracelets</button>
+            <button class="button-value">Rings</button>
+            <button class="button-value">Earings</button>
+            <button class="button-value">Necklaces</button>
+        </div>
+
+        <div id="products"></div>
+    </div>
     
-    <!-- Product Filter Menu -->
-
-
     <scripts src="scripts.js"></scripts>
 </body>
 </html>
