@@ -1,0 +1,13 @@
+/*--- items being sold ---*/
+.products {
+    margin-left: 100px;
+}
+
+.container img {
+    height: 200px;
+    width: 200px;
+}
+
+.prod-header {
+    align-self: center;
+}
