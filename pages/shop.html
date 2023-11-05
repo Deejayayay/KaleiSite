@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalei Shop</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/shop_styles.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/shop_styles.css">
+
 </head>
 
 <body class="home">
@@ -24,11 +24,13 @@
 
     <div class="wrapper">
         <div id="search-container">
-            <input type="search" id="search-input" placeholder="Search product name here..."/>
-
+            <input 
+            type="search" 
+            id="search-input" 
+            placeholder="Search product name here..."
+            />
             <button id="search">Search</button>
         </div>
-
         <div id="buttons">
             <button class="button-value">All</button>
             <button class="button-value">Bracelets</button>
@@ -36,10 +38,9 @@
             <button class="button-value">Earings</button>
             <button class="button-value">Necklaces</button>
         </div>
-
         <div id="products"></div>
     </div>
+
     
-    <scripts src="scripts.js"></scripts>
 </body>
 </html>
