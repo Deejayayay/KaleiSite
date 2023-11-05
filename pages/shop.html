@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalei Shop</title>
+    <!-- Styles -->
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/shop_styles.css">
 
 </head>
 
 <body class="home">
-
     <!-- Nav Bar -->
     <header class="header">
         <a class="logo" href="/index.html"> Kalei </a>
@@ -22,6 +22,7 @@
         </nav>
     </header>
 
+    <!--Search Bar and Filter Buttons-->
     <div class="wrapper">
         <div id="search-container">
             <input 
@@ -32,15 +33,18 @@
             <button id="search">Search</button>
         </div>
         <div id="buttons">
+            <!-- Buttons to filter out the items of the client's store-->
             <button class="button-value" onclick="filterProduct('All')">All</button>
             <button class="button-value" onclick="filterProduct('Bracelets')">Bracelets</button>
             <button class="button-value" onclick="filterProduct('Rings')">Rings</button>
             <button class="button-value" onclick="filterProduct('Earings')">Earings</button>
             <button class="button-value" onclick="filterProduct('Necklaces')">Necklaces</button>
         </div>
+        <!-- The container for the products to be dynamically rendered-->
         <div id="products"></div>
     </div>
 
+    <!-- Scripts -->
     <script src="/scripts.js"></script>
 </body>
 </html>

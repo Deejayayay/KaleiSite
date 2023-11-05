@@ -11,6 +11,7 @@
 
 body {
     min-height: 100vh;
+    background-image: url("/img/three-green-palm-leaves-yellow-table.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -21,7 +22,7 @@ body {
     width: 100%;
     padding: 20px 100px;
     display: flex;
-    background-color: #89a692;
+    /*background-color: #89a692;*/
     justify-content: space-between;
     align-items: center;
     z-index: 100;
