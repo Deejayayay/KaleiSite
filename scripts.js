@@ -18,7 +18,7 @@ function displayProducts(){
 
     let products = document.getElementById("products");
     let html = "";
-
+    //todo add more products and make it ref links
     for(let i of productData){
         html += `
         <div class="card hide">
@@ -75,6 +75,7 @@ document.getElementById("search").addEventListener
     elements.forEach((element, index) => {
         if(element.innerText.includes(searchInput)){
             cards[index].classList.remove("hide");
+            //todo imrpove search
         } else {
             cards[index].classList.add("hide");
         }
